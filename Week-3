@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #3498db;
+            padding: 10px 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .top-bar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .top-bar input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 300px;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #3498db;
+        }
+        .product-details {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product-image {
+            flex: 1;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-info {
+            flex: 2;
+            padding: 15px;
+        }
+        .product-info h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .product-info p {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #666;
+        }
+        .product-info .price {
+            font-size: 20px;
+            color: #e74c3c;
+            margin: 10px 0;
+        }
+        .product-info button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .product-info button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <h1>E-Commerce</h1>
+    <input type="text" placeholder="Search">
+</div>
+
+<div class="container">
+    <div class="product-details">
+        <div class="product-image">
+            <img src="C:/Users/Siva/Desktop/nike.jpg" alt="Product Image" width="200" height="200">
+        </div>
+        <div class="product-info">
+            <h1>Nike Air</h1>
+            <p>Nike Air Jordan 1 Retro High Colette Au Revoir</p>
+            <p class="price">$20000</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <div class="product-details">
+        <div class="product-image">
+            <img src="C:/Users/Siva/Desktop/shopping.webp" alt="Product Image" width="200" height="200">
+        </div>
+        <div class="product-info">
+            <h1>Red Tape</h1>
+            <p>Red Tape men Coloureblocked PU High-Top Sneakers</p>
+            <p class="price">$100</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container">
+    <div class="product-details">
+        <div class="product-image">
+            <img src="C:/Users/Siva/Desktop/sparx.jpeg" alt="Product Image" width="200" height="200">
+        </div>
+        <div class="product-info">
+            <h1>Sparx</h1>
+            <p>Sparx Sm-747 Sneakers For Men</p>
+            <p class="price">$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+<hr>
+
+</body>
+</html>
